@@ -12,10 +12,19 @@
         tools:layout="@layout/fragment_onboarding1" >
         <action
             android:id="@+id/action_onboarding1Fragment_to_onboarding2Fragment"
-            app:destination="@id/onboarding2Fragment" />
+            app:destination="@id/onboarding2Fragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+
         <action
             android:id="@+id/action_onboarding1Fragment_to_homeFragment"
-            app:destination="@id/homeFragment" />
+            app:destination="@id/homeFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
     </fragment>
     <fragment
         android:id="@+id/onboarding2Fragment"
@@ -24,10 +33,18 @@
         tools:layout="@layout/fragment_onboarding2" >
         <action
             android:id="@+id/action_onboarding2Fragment_to_onboarding3Fragment"
-            app:destination="@id/onboarding3Fragment" />
+            app:destination="@id/onboarding3Fragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
         <action
             android:id="@+id/action_onboarding2Fragment_to_homeFragment"
-            app:destination="@id/homeFragment" />
+            app:destination="@id/homeFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
     </fragment>
     <fragment
         android:id="@+id/onboarding3Fragment"
@@ -36,7 +53,12 @@
         tools:layout="@layout/fragment_onboarding3" >
         <action
             android:id="@+id/action_onboarding3Fragment_to_homeFragment"
-            app:destination="@id/homeFragment" />
+            app:destination="@id/homeFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+
     </fragment>
     <fragment
         android:id="@+id/homeFragment"
